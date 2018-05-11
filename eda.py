@@ -4,7 +4,7 @@ import numpy as np
 # read train data
 train = pd.read_csv("atec_anti_fraud_train.csv")
 
-# summary f
+# summary
 train.head()  # 有空值
 train.shape  # (994731, 300)
 train.groupby("label").size()
